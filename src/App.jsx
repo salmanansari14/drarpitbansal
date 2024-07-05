@@ -10,29 +10,18 @@ import About from './Component/About.jsx'
 import Contact from './Component/Contact.jsx'
 import Footer from './Component/Footer.jsx'
 import Achievements from './Component/Achievements.jsx'
+import Treatements from './Component/Treatements.jsx'
 
 function App() {
   
   return (
     <>
-     {/* <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/"
-            element={<Head/>}
-          />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter> */}
-      {/* <Head/>
-      <Navbar/>
-      <About/> */}
     <Head/>
     {/* <About/> */}
-    <Achievements/>
-    <About/>
+    {/* <Achievements/> */}
+    {/* <About/> */}
     <Outlet/>
+    <Treatements/>
     <Contact/>
     <Footer/>
     </>

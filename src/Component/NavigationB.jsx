@@ -38,7 +38,7 @@ console.log(theme)
             >
                 <div className="text-sm lg:flex-grow">
                     <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-                        First Link
+                        Home
                     </a>
                     <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         About
@@ -103,7 +103,7 @@ console.log(theme)
                 </div>
                 <div>
                     <button onClick={()=>{setTheme(!theme)}} className=" inline-flex items-center bg-blue-700 border-0 py-2 px-4 text-white">
-                        change color
+                        Book Appoinment
                     </button>
                 </div>
             </div>
