@@ -31,6 +31,7 @@ function App() {
     <Head/>
     {/* <About/> */}
     <Achievements/>
+    <About/>
     <Outlet/>
     <Contact/>
     <Footer/>
