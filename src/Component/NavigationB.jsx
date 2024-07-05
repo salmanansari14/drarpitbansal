@@ -88,7 +88,8 @@ function NavigationB() {
  return (
    <nav className="flex items-center justify-between flex-wrap p-6">
      <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-       <img src={arpitdr} className="w-100 h-10 mr-2" alt="Logo" />
+       {/* <img src={arpitdr} className="w-100 h-10 mr-2" alt="Logo" /> */}
+       <span className='text-slate-950'>Laparoscopy & laser surgery</span>
      </div>
      <div className="block lg:hidden">
        <button
