@@ -3,7 +3,6 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import Arpit2 from "../assets/drapitPhotos/Arpit2.png";
 
-
 const spanStyle = {
   padding: "20px",
   background: "#efefef",
@@ -42,18 +41,23 @@ const slideImages = [
 
 const GoogleReview = () => {
   return (
-    <div className="slide-container">
-      <Slide>
-        {slideImages.map((slideImage, index) => (
-          <div key={index}>
-            <div
-              style={{ ...divStyle, backgroundImage: `url(${slideImage.url})` }}
-            >
-              <span style={spanStyle}>{slideImage.caption}</span>
+    <div className="bg-cyan-200">
+      <div className="slide-container w-4/5 m-auto text-center">
+        <Slide>
+          {slideImages.map((slideImage, index) => (
+            <div key={index}>
+              <div
+                style={{
+                  ...divStyle,
+                  backgroundImage: `url(${slideImage.url})`,
+                }}
+              >
+                <span style={spanStyle}>{slideImage.caption}</span>
+              </div>
             </div>
-          </div>
-        ))}
-      </Slide>
+          ))}
+        </Slide>
+      </div>
     </div>
   );
 };

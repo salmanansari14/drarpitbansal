@@ -1,8 +1,17 @@
+
+.trt{
+  margin: 15px;
+}
+
+
 @media screen and (max-width: 700px) {
-    body {
+    /* body {
       background-color: lightgreen;
-    }
+    } */
     .navv{
         /* display: none; */
+    }
+    .trt{
+        margin: 0;
     }
   }
