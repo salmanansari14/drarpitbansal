@@ -29,7 +29,7 @@ function App() {
       <Navbar/>
       <About/> */}
     <Head/>
-    <About/>
+    {/* <About/> */}
     <Achievements/>
     <Outlet/>
     <Contact/>
