@@ -11,6 +11,7 @@ import Contact from './Component/Contact.jsx'
 import Footer from './Component/Footer.jsx'
 import Achievements from './Component/Achievements.jsx'
 import Treatements from './Component/Treatements.jsx'
+import GoogleReview  from './Component/GoogleReview.jsx'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
     {/* <Achievements/> */}
     {/* <About/> */}
     <Outlet/>
+    <GoogleReview/>
     <Treatements/>
     <Contact/>
     <Footer/>
