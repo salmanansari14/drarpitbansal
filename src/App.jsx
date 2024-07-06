@@ -12,6 +12,7 @@ import Footer from './Component/Footer.jsx'
 import Achievements from './Component/Achievements.jsx'
 import Treatements from './Component/Treatements.jsx'
 import GoogleReview  from './Component/GoogleReview.jsx'
+import { FAQ } from './Component/FAQ.jsx'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
     <Outlet/>
     <GoogleReview/>
     <Treatements/>
+    <FAQ/>
     <Contact/>
     <Footer/>
     </>

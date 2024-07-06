@@ -3,6 +3,11 @@
   margin: 15px;
 }
 
+.faq{
+  margin: 5px;
+  padding: 20px;
+  width: 80%;
+}
 
 @media screen and (max-width: 700px) {
     /* body {
@@ -13,5 +18,11 @@
     }
     .trt{
         margin: 0;
+    }
+    .faq{
+        margin: 2px;
+        padding: 5px;
+        width: 90%;
+        /* background-color: rgb(191, 165, 165); */
     }
   }
