@@ -10,7 +10,7 @@ console.log(theme)
     return (
         <nav className="themess flex items-center justify-between flex-wrap p-4">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-                <span className='text-slate-950'>Laparoscopic & Laser Surgery</span>
+                <span className='text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
             <div className="block lg:hidden">
                 <button

@@ -28,10 +28,10 @@ export function FAQ() {
 
     return (
         <>
-            <div className="bg-cyan-100">
+            <div className="bg-blue-400">
                 <h1 className="text-center font-bold text-5xl text-slate-700">FAQs</h1>
                 <div className=" text-center m-auto rounded-3xl faq" >
-                    <Accordion className="border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 1} icon={<Icon id={1} open={open} />}>
+                    <Accordion className="border-2 my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-300" open={open === 1} icon={<Icon id={1} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(1)}>What is Material Tailwind?</AccordionHeader>
                         <AccordionBody>
                             We&apos;re not always in the position that we want to be at. We&apos;re constantly
@@ -39,7 +39,7 @@ export function FAQ() {
                             ourselves and actualize our dreams.
                         </AccordionBody>
                     </Accordion>
-                    <Accordion className=" border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 2} icon={<Icon id={2} open={open} />}>
+                    <Accordion className=" border-2 my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-300" open={open === 2} icon={<Icon id={2} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(2)}>
                             How to use Material Tailwind?
                         </AccordionHeader>
@@ -49,7 +49,7 @@ export function FAQ() {
                             ourselves and actualize our dreams.
                         </AccordionBody>
                     </Accordion>
-                    <Accordion className=" border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 3} icon={<Icon id={3} open={open} />}>
+                    <Accordion className=" border-2 my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-300" open={open === 3} icon={<Icon id={3} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(3)}>
                             What can I do with Material Tailwind?
                         </AccordionHeader>
@@ -59,7 +59,7 @@ export function FAQ() {
                             ourselves and actualize our dreams.
                         </AccordionBody>
                     </Accordion>
-                    <Accordion className=" border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 4} icon={<Icon id={4} open={open} />}>
+                    <Accordion className=" border-2 my-2 rounded-2xl bg-gradient-to-r from-blue-300 px-3 border-b-slate-600" open={open === 4} icon={<Icon id={4} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(4)}>
                             What can I do with Material Tailwind?
                         </AccordionHeader>
@@ -69,7 +69,7 @@ export function FAQ() {
                             ourselves and actualize our dreams.
                         </AccordionBody>
                     </Accordion>
-                    <Accordion className=" border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 5} icon={<Icon id={5} open={open} />}>
+                    <Accordion className=" border-2 my-2 rounded-2xl bg-gradient-to-r from-blue-300 px-3 border-b-slate-600" open={open === 5} icon={<Icon id={5} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(5)}>
                             What can I do with Material Tailwind?
                         </AccordionHeader>
@@ -79,7 +79,7 @@ export function FAQ() {
                             ourselves and actualize our dreams.
                         </AccordionBody>
                     </Accordion>
-                    <Accordion className=" border-2 my-2 rounded-2xl bg-cyan-300 px-3 border-b-slate-600" open={open === 6} icon={<Icon id={6} open={open} />}>
+                    <Accordion className=" border-2 my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-300" open={open === 6} icon={<Icon id={6} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(6)}>
                             What can I do with Material Tailwind?
                         </AccordionHeader>
