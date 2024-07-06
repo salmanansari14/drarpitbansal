@@ -8,7 +8,7 @@ function NavigationB() {
     const [theme, setTheme] = useState(false)
 console.log(theme)
     return (
-        <nav className="themess flex items-center justify-between flex-wrap p-4">
+        <nav className="themess flex items-center justify-between flex-wrap p-3">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
                 <span className='text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
@@ -36,17 +36,17 @@ console.log(theme)
             <div
                 className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
             >
-                <div className="text-sm lg:flex-grow">
-                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                <div className="text-sm lg:flex-grow p-1">
+                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Home
                     </a>
-                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         About
                     </a>
-                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#" className="block align mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Achievements
                     </a>
-                    <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Contact
                     </a>
 
