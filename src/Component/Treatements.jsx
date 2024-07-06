@@ -85,7 +85,7 @@ const Treatements = () => {
             </a>
             <div class="mt-4 text-center">
               <h2 class="text-gray-900 title-font text-lg font-medium">
-              Advance Laparoscopy Surgery
+              Advance Laparoscopic Surgery
               </h2>
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY

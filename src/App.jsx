@@ -21,11 +21,11 @@ function App() {
     <Head/>
     {/* <About/> */}
     {/* <Achievements/> */}
-    {/* <About/> */}
     <Outlet/>
-    <GoogleReview/>
     <Treatements/>
     <FAQ/>
+    <About/>
+    <GoogleReview/>
     <Contact/>
     <Footer/>
     </>

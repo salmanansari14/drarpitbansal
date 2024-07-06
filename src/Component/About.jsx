@@ -3,43 +3,29 @@ import Arpit1 from '../assets/drapitPhotos/Arpit1.jpg'
 import Arpit2 from '../assets/drapitPhotos/Arpit2.png'
 import Arpit3 from '../assets/drapitPhotos/Arpit3.png'
 import Arpit4 from '../assets/drapitPhotos/Arpit4.png'
-import Arpit5 from '../assets/drapitPhotos/Arpit5.png'
+import arpitdr from '../assets/arpitdr.png'
 
 const About = () => {
     return (
         <>
-            <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto flex flex-wrap">
-                    <div class="flex w-full mb-20 flex-wrap">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
-                        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-                    </div>
-                    <div class="flex flex-wrap md:-m-2 -m-1">
-                        <div class="flex flex-wrap w-1/2">
-                            <div class="md:p-2 p-1 w-1/2 border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full object-cover h-full object-center block" src={Arpit1}/>
-                            </div>
-                            <div class="md:p-2 p-1 w-1/2 border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full object-cover h-full object-center block" src={Arpit2}/>
-                            </div>
-                            <div class="md:p-2 p-1 w-full border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full h-full object-cover object-center block" src={Arpit3}/>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap w-1/2">
-                            <div class="md:p-2 p-1 w-full border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full h-full object-cover object-center block" src={Arpit4}/>
-                            </div>
-                            <div class="md:p-2 p-1 w-1/2 border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full object-cover h-full object-center block" src={Arpit5}/>
-                            </div>
-                            <div class="md:p-2 p-1 w-1/2 border-solid border-2 border-blue-500">
-                                <img alt="gallery" class="w-full object-cover h-full object-center block" src={Arpit4}/>
-                            </div>
-                        </div>
+           <section class="text-gray-600 mt-14 body-font">
+            <h1 className='mx-16 text-4xl text-center'>About me</h1>
+            <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src={arpitdr}/>
+                </div>
+                <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Dr. Arpit Bansal
+                    </h1>
+                        {/* <span class="hidden lg:inline-block"/>Laparoscopic & Laser Surgeon<span/> */}
+                    <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                    <div class="flex justify-center">
+                        <button class="inline-flex text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">Book Appoinment</button>
+                        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Know me</button>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
         </>
     )
 }
