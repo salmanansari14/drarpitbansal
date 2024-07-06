@@ -8,7 +8,7 @@ import arpitdr from '../assets/arpitdr.png'
 const About = () => {
     return (
         <>
-           <section class="text-gray-600 mt-14 body-font">
+           <section id='about' class="text-gray-600 mt-14 body-font">
             <h1 className='mx-16 text-4xl ml-32 font-bold text-5xl'>About me</h1>
             <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">

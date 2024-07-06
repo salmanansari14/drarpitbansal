@@ -2,13 +2,15 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+// import '../Style/neonStyle.css'
 
 function NavigationB() {
     const [isOpen, setIsOpen] = useState(false);
     const [theme, setTheme] = useState(false)
-console.log(theme)
+    console.log(theme)
     return (
-        <nav className="themess fixed shadow-sm w-full bg-white bg-opacity-75 z-10 flex items-center justify-between flex-wrap p-3">
+        <nav className="themess fixed shadow-sm w-full bg-white z-10 flex items-center justify-between flex-wrap p-3">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
                 <span className='text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
@@ -37,16 +39,16 @@ console.log(theme)
                 className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
             >
                 <div className="text-sm lg:flex-grow p-1">
-                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="/" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Home
                     </a>
-                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#about" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         About
                     </a>
-                    <a href="#" className="block align mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#achievements" className="block align mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Achievements
                     </a>
-                    <a href="#" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
+                    <a href="#contact" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         Contact
                     </a>
 
@@ -102,9 +104,16 @@ console.log(theme)
                     </Menu>
                 </div>
                 <div>
-                    <button onClick={()=>{setTheme(!theme)}} className=" inline-flex items-center bg-blue-700 border-0 py-2 px-4 text-white">
-                        Book Appoinment
+                    <button onClick={() => { setTheme(!theme) }} className=" inline-flex items-center bg-blue-700 border-0 py-2 px-4 text-white">
+                        Book Appointment
                     </button>
+                        {/* <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Book Appoinment
+                        </a> */}
                 </div>
             </div>
         </nav>
