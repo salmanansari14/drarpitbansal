@@ -12,7 +12,7 @@ function NavigationB() {
     return (
         <nav className="themess fixed shadow-sm w-full bg-white z-10 flex items-center justify-between flex-wrap p-3">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-                <span className='text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
+                <span className='text-slate-950 text-wrap'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
             <div className="block lg:hidden">
                 <button
@@ -104,7 +104,7 @@ function NavigationB() {
                     </Menu>
                 </div>
                 <div>
-                    <button onClick={() => { setTheme(!theme) }} className=" inline-flex items-center bg-blue-700 border-0 py-2 px-4 text-white">
+                    <button onClick={() => { setTheme(!theme) }} className="rounded-lg inline-flex items-center bg-blue-700 border-0 py-2 px-4 text-white">
                         Book Appointment
                     </button>
                         {/* <a href="#">
