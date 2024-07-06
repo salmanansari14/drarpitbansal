@@ -28,7 +28,7 @@ export function FAQ() {
 
     return (
         <>
-            <div className="bg-blue-200">
+            <div className="bg-blue-100">
                 <h1 className="text-center font-bold text-5xl text-slate-700">FAQs</h1>
                 <div className=" text-center m-auto rounded-3xl faq" >
                     <Accordion className="border-2 my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-400" open={open === 1} icon={<Icon id={1} open={open} />}>
