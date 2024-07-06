@@ -8,7 +8,7 @@ function NavigationB() {
     const [theme, setTheme] = useState(false)
 console.log(theme)
     return (
-        <nav className="themess flex items-center justify-between flex-wrap p-3">
+        <nav className="themess fixed shadow-sm w-full bg-white bg-opacity-75 z-10 flex items-center justify-between flex-wrap p-3">
             <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
                 <span className='text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>

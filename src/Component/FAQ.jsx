@@ -29,7 +29,7 @@ export function FAQ() {
     return (
         <>
             <div className="">
-                <h1 className="text-center font-bold text-5xl text-slate-700">FAQs</h1>
+                <h1 className="text-left ml-32 font-bold text-5xl text-slate-700">FAQs</h1>
                 <div className=" text-center m-auto rounded-3xl faq" >
                     <Accordion className="border-2 border-none my-2 rounded-2xl px-3 border-b-slate-600 bg-gradient-to-r from-blue-400" open={open === 1} icon={<Icon id={1} open={open} />}>
                         <AccordionHeader onClick={() => handleOpen(1)}>What is Material Tailwind?</AccordionHeader>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const AdvanceLaparoscopy = () => {
     return (
-        <div className=' w-4/5 m-auto'>
+        <div className=' w-4/5 pt-32 m-auto'>
             <h1 className='text-3xl font-bold m-10'>
                 Advanced Laparoscopic Surgery
             </h1>

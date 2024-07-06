@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Treatements = () => {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-1 py-24 mx-auto">
+      <div class="container px-1 py-8 mx-auto">
         <div>
           <h1 className="text-5xl font-bold">Treatments</h1>
         </div>
