@@ -10,11 +10,11 @@ function NavigationB() {
     const [theme, setTheme] = useState(false)
     console.log(theme)
     return (
-        <nav className="themess fixed shadow-sm w-full bg-white z-10 flex items-center justify-between flex-wrap p-3">
-            <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-                <span className='text-slate-950 text-wrap'>Laparoscopic Surgery & Laser Treatement</span>
+        <nav className="themess fixed shadow-md w-full bg-blue-500 z-30 flex items-center justify-between flex-wrap p-3 md:bg-white md:shadow-sm">
+            <div className="flex items-center flex-shrink-0 mr-6 lg:mr-72">
+                <span className=' font-bold md:text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
-            <div className="block lg:hidden">
+            <div className="block xl:hidden">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
@@ -36,7 +36,7 @@ function NavigationB() {
                 </button>
             </div>
             <div
-                className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
+                className={`w-full block flex-grow xl:flex  lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
             >
                 <div className="text-sm lg:flex-grow p-1">
                     <a href="/" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
@@ -54,7 +54,7 @@ function NavigationB() {
 
                     <Menu as="div" className="relative inline-block text-left">
                         <div>
-                            <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                            <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 border-sm border-blue-950 ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                                 Options
                                 <ChevronDownIcon aria-hidden="true" className="-mr-1 h-5 w-5 text-gray-400" />
                             </MenuButton>
