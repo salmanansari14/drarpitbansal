@@ -14,7 +14,7 @@ const Treatements = () => {
         <div class="flex flex-wrap justify-center m-4">
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md rounded-3xl trt bg-gradient-to-b from-blue-200">
             <Link to='advanceLaparoscopy'>
-              <Link to='advanceLaparoscopy' class="block relative h- rounded p-2 overflow-hidden">
+              <Link to='advanceLaparoscopy' class="block relative h- rounded p-5 overflow-hidden">
                 <img
                   alt="ecommerce"
                   class="object-cover object-center w-full h-full block"
@@ -33,7 +33,7 @@ const Treatements = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md rounded-3xl trt bg-gradient-to-b from-blue-200">
             <Link to='generalSurery'>
-              <Link to='generalSurery' class="block relative h- rounded p-2 overflow-hidden">
+              <Link to='generalSurery' class="block relative h- rounded p-5 overflow-hidden">
                 <img
                   alt="ecommerce"
                   class="object-cover object-center w-full h-full block"
@@ -52,7 +52,7 @@ const Treatements = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md rounded-3xl trt tt bg-gradient-to-b from-blue-200">
           <Link to='lasersurgery'>
-            <Link to='lasersurgery' class="block relative h- rounded p-2 overflow-hidden">
+            <Link to='lasersurgery' class="block relative h- rounded p-5 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
@@ -71,7 +71,7 @@ const Treatements = () => {
             </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md rounded-3xl trt tt bg-gradient-to-b from-blue-200">
           <Link to='bariaticweightloss'>
-            <Link to='bariaticweightloss' class="block relative h- rounded p-2 overflow-hidden">
+            <Link to='bariaticweightloss' class="block relative h- rounded p-5 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
@@ -90,7 +90,7 @@ const Treatements = () => {
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md rounded-3xl trt tt bg-gradient-to-b from-blue-200">
           <Link to='breastclinic'>
-            <Link to='breastclinic' class="block relative h- rounded p-2 overflow-hidden">
+            <Link to='breastclinic' class="block relative h- rounded p-5 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
@@ -109,7 +109,7 @@ const Treatements = () => {
           </div>
           <div class="lg:w-1/4 border md:w-1/2 p-4 w-full shadow-md rounded-3xl trt tt bg-gradient-to-b from-blue-200">
           <Link to='surgicaloncology'>
-            <Link to='surgicaloncology' class="block relative h- rounded p-2 overflow-hidden">
+            <Link to='surgicaloncology' class="block relative h- rounded p-5 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
