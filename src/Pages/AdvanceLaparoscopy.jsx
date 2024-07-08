@@ -66,7 +66,6 @@ const AdvanceLaparoscopy = () => {
                     </li>
                 </ol>
             </div>
-
         </div>
     )
 }

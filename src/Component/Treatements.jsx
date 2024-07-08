@@ -1,6 +1,12 @@
 import React from "react";
 // import laprscpyIcons from '../assets/icons/laprscpyIcons.png'
 import hearticon from "../assets/icons/hearticon.png";
+import lapro2 from "../assets/icons/Treatment/lapro2.png";
+import operatingroom from "../assets/icons/Treatment/operatingroom.png";
+import laser1 from "../assets/icons/Treatment/laser1.png";
+import stomach from "../assets/icons/Treatment/stomach.png";
+import clinic1 from "../assets/icons/Treatment/clinic1.png";
+import surgery from "../assets/icons/Treatment/surgery.png";
 import '../Style/Style.css'
 import { Link } from "react-router-dom";
 
@@ -18,7 +24,7 @@ const Treatements = () => {
                 <img
                   alt="ecommerce"
                   class="object-cover object-center w-full h-full block"
-                  src={hearticon}
+                  src={lapro2}
                 />
               </Link>
               <div class="mt-4 text-center">
@@ -37,7 +43,7 @@ const Treatements = () => {
                 <img
                   alt="ecommerce"
                   class="object-cover object-center w-full h-full block"
-                  src={hearticon}
+                  src={operatingroom}
                 />
               </Link>
               <div class="mt-4 text-center">
@@ -56,7 +62,7 @@ const Treatements = () => {
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src={hearticon}
+                src={laser1}
                 />
             </Link>
             <div class="mt-4 text-center">
@@ -75,7 +81,7 @@ const Treatements = () => {
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src={hearticon}
+                src={stomach}
                 />
             </Link>
             <div class="mt-4 text-center">
@@ -94,7 +100,7 @@ const Treatements = () => {
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src={hearticon}
+                src={clinic1}
                 />
             </Link>
             <div class="mt-4 text-center">
@@ -113,7 +119,7 @@ const Treatements = () => {
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src={hearticon}
+                src={surgery}
                 />
             </Link>
             <div class="mt-4 text-center">

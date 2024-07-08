@@ -2,7 +2,7 @@ import React from 'react'
 
 const BreastClinic = () => {
   return (
-    <div>BreastClinic</div>
+    <div className='text-black'>BreastClinic</div>
   )
 }
 

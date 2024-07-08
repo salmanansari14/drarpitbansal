@@ -14,7 +14,7 @@ function NavigationB() {
             <div className="flex items-center flex-shrink-0 mr-6 lg:mr-72">
                 <span className=' font-bold md:text-slate-950'>Laparoscopic Surgery & Laser Treatement</span>
             </div>
-            <div className="block xl:hidden">
+            <div className="block lg:hidden">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
@@ -36,7 +36,7 @@ function NavigationB() {
                 </button>
             </div>
             <div
-                className={`w-full block flex-grow xl:flex  lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
+                className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
             >
                 <div className="text-sm lg:flex-grow p-1">
                     <a href="/" className="block mt-0 lg:inline-block lg:mt-0 text-white-200 mr-4">
